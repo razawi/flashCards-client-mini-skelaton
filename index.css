@@ -1,0 +1,27 @@
+p {
+    font-size: 60px;
+}
+
+@media  (max-width: 500px) {
+
+    #curiculaTable{
+        width: 90%;
+        background:red;
+    }
+}
+
+@media ((min-width: 500) and (max-width: 769px)) {
+
+    #curiculaTable{
+        width: 70%;
+        background:green;
+    }
+}
+
+@media (min-width: 769px) {
+
+    #curiculaTable{
+        width: 600px;
+        /*background:yellow;*/
+    }
+}
